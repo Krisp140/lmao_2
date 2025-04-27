@@ -78,7 +78,7 @@ async function initLibp2p() {
 
       if (mainWindow) {
         console.log('peer-connected event received:', peerInfo);
-        mainWindow.webContents.send('peer-connected', {peerInfo});
+        mainWindow.webContents.send('peer-connected', peerInfo);
       }
     })
     
