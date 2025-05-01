@@ -6,3 +6,17 @@ node_modules
 .env.production.local
 .env.development
 .env.test
+
+# Build output
+dist/
+.vite/
+node_modules/.vite/
+
+# System files
+.DS_Store
+*.log
+
+# IDE files
+.idea/
+.vscode/
+.cursor/
